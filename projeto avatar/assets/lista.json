@@ -1,0 +1,50 @@
+[
+    {
+    "id":1,
+    "imagem": "aang",
+    "nome": "Avatar Aang",
+    "descricao":"Aang foi um Nômade do Ar nascido em 12 AG e o Avatar durante o conflito conhecido como Guerra dos Cem Anos. Seu antecessor imediato foi o Avatar Roku, e sua sucessora foi a Avatar Korra. Como o Avatar de seu tempo, foi o único capaz de realizar a dobra dos quatro elementos. Ele também foi um dos poucos Avatares, e o primeiro em vários ciclos, a aprender a antiga arte da Dobra de Energia, e o primeiro Avatar a utilizar a técnica. Um pouco antes do início da guerra, Aang estava congelado num iceberg durante 100 anos. Ele emerge, ainda biologicamente com doze anos de idade, em um mundo tragado pela guerra. Durante sua ausência, a Nação do Fogo entrou em guerra com as outras nações e conseguiu eliminar totalmente os pacifistas Nômades do Ar. Aang, o último de sua espécie, era o único que poderia pôr fim à guerra, aprendendo a dominar os outros três elementos e ser capaz derrotar o Senhor do Fogo Ozai."
+    },
+    {
+        "id":2,
+        "imagem": "zuko",
+        "nome": "Principe Zuko",
+        "descricao":"Zuko é um hábil e poderoso dobrador de fogo, nascido como um príncipe na Família Real da Nação do Fogo e manteve o título de Senhor do Fogo de 100 DG até 167 DG. Inicialmente, o principal antagonista da Equipe Avatar, por três anos sua vida era concentrada em capturar o Avatar, dando fim ao seu banimento e recuperando sua honra como Príncipe Real da Nação do Fogo. Zuko é facilmente reconhecido pela queimadura no lado esquerdo de seu rosto, dada a ele por seu pai, Senhor do Fogo Ozai, pouco antes de sua expulsão devido as suas atitudes desrespeitosas na Sala de Guerra e a se recusar a duelar contra seu pai em um Agni Kai"
+    },
+    {
+        "id":3,
+        "imagem": "katara",
+        "nome": "Katara",
+        "descricao":"Katara é uma Dobradora de Água que nasceu e cresceu na Tribo da Água do Sul e foi criada por sua avó, Kanna, assim como seu irmão mais velho, Sokka, após seu pai deixar o Polo Sul. Katara foi a última dominadora de água em sua tribo e levou uma vida normal adolescente até que ela e seu irmão encontraram um menino chamado Aang, um Nômade do Ar congelado em um iceberg. Quando ela descobre que ele é o Avatar, perdido por cem anos, ela tem a esperança de que ele é quem vai salvar o mundo devastado pela guerra. Katara e seu irmão deixam sua tribo para trás para viajar com Aang, para ele aprender a dominar os outros elementos (água, terra e fogo) e ajudá-lo a finalmente pôr um fim à devastação da Nação do Fogo."
+    },
+    {
+        "id":4,
+        "imagem": "sokka",
+        "nome": "Sokka",
+        "descricao":"Sokka é um guerreiro que nasceu e cresceu na Tribo da Água do Sul criado por sua avó Kanna, ele viveu uma vida de um adolescente normal em sua tribo até que ele e sua irmã Katara navegam pelo mar e encontram um iceberg e lá havia um garoto Nômade do Ar congelado, que permaneceu incubado durante um período de 100 anos que, inclusive, é o Avatar, que tem esperança de que pode aprender a controlar os elementos e acabar com a guerra entre as quatro nações. Logo após isso ele e sua irmã Katara deixam sua tribo para viajar ao lado de Aang e ajudá-lo em sua jornada, e também é um membro da Equipe Avatar."
+    },
+    {
+        "id":5,
+        "imagem": "azula",
+        "nome": "Azula",
+        "descricao":"Azula era a princesa da Nação do Fogo, filha do Senhor do Fogo Ozai e Princesa Ursa , e a irmã mais nova de seu inimigo, o Senhor do Fogo Zuko e uma meia-irmã Kiyi. Caracterizada por dobrar um fogo azul e raios. Ela era um oponente chave da equipe Avatar, perseguindo o Avatar Aang e seu irmão banido pelo Reino da Terra acompanhada de seus duas melhores amigas, Mai e Ty Lee . Um prodígio da dominação do fogo, Azula era sádica, manipuladora e obcecada com o poder. Ela era uma estrategista fantástica, que orquestrou a vitória da Nação do Fogo sobre a capital do Reino da Terra, Ba Sing Se."
+    },
+    {
+        "id":6,
+        "imagem": "toph",
+        "nome": "Toph",
+        "descricao":"Toph Beifong, também conhecida como Toph, é uma mestre de Dobra de Terra, uma das mais poderosas de seu tempo, e a descobridora da Dobra de Metal. Cega desde o nascimento, Toph foi tratada constantemente de maneira condescendente por causa de sua inabilidade, particularmente por seus pais ultra protetores, Lao e Poppy Beifong. Ao descobrir Toupeiras-Texugo, animais que dominavam a Terra e que também eram cegos, ela aprendeu a usar a dobra de terra como uma extensão de seus sentidos. Isso lhe deu a habilidade de ver todas as vibrações que passam pelo chão."
+    },
+    {
+        "id":7,
+        "imagem": "iroh",
+        "nome": "Tio Iroh",
+        "descricao":"Iroh foi um general aposentado da Nação do Fogo, um ex-príncipe da Nação do Fogo, mestre da Ordem do Lótus Branco, um mestre de Dobra de Fogo, e um mentor para seu sobrinho, o príncipe Zuko. Iroh é o primogênito do Senhor do Fogo Azulon e o irmão mais velho do Senhor do Fogo Ozai. Recebeu o título de O Dragão do Oeste, após, supostamente, matar o último dragão do Mundo de Avatar. Iroh abandonou o famoso cerco de 600 dias à Ba Sing Se logo depois que seu filho morreu por não aguentar a dor desta perda, e por ter fracassado, seu irmão Ozai, pediu ao pai Azulon que passasse a sucessão ao trono para ele, pois o primogênito além de não ter honrado o nome do Senhor do Fogo, agora não teria mais linhagem enquanto que ele tinha dois filhos. Ao contrário de outros da Nação do Fogo, em particular dentro de sua própria família, Iroh é um homem espiritual, tranquilo e e é uma espécie de holista. Ele aprecia o equilíbrio dos quatro elementos, mesmo incorporando as facetas dos outros elementos em suas próprias habilidades para domar o fogo."
+    },
+    {
+        "id":8,
+        "imagem": "imagens/appa.png",
+        "nome": "Appa",
+        "descricao":"Appa é o fiel Bisão Voador pertencente a Aang. Aang e Appa, juntamente com o Momo, tem um forte vínculo familiar entre si já que são os últimos de sua espécie. Ele é mais conhecido por sua habilidade de voar, através de Dobra de Ar, apesar do seu altíssimo peso. Isto faz dele o principal meio de transporte utilizado pela Equipe Avatar. Sendo um bisão do ar, Appa possuía a dobra de ar e aparentemente usava sua cauda. Sendo um bisão do céu, Appa possuía dobra de ar e, aparentemente, usava sua cauda como a principal força motriz por trás de sua dominação,mas ele também havia demonstrado a capacidade de realizá-lo com a boca. Ele usou principalmente sua capacidade de voar em alturas extremas e evitar ataques. "
+    }
+]
