@@ -1,7 +1,7 @@
 [
     {
     "id":1,
-    "imagem": "aang",
+    "imagem": "./imagens/aang.jpg",
     "nome": "Avatar Aang",
     "descricao":"Aang foi um Nômade do Ar nascido em 12 AG e o Avatar durante o conflito conhecido como Guerra dos Cem Anos. Seu antecessor imediato foi o Avatar Roku, e sua sucessora foi a Avatar Korra. Como o Avatar de seu tempo, foi o único capaz de realizar a dobra dos quatro elementos. Ele também foi um dos poucos Avatares, e o primeiro em vários ciclos, a aprender a antiga arte da Dobra de Energia, e o primeiro Avatar a utilizar a técnica. Um pouco antes do início da guerra, Aang estava congelado num iceberg durante 100 anos. Ele emerge, ainda biologicamente com doze anos de idade, em um mundo tragado pela guerra. Durante sua ausência, a Nação do Fogo entrou em guerra com as outras nações e conseguiu eliminar totalmente os pacifistas Nômades do Ar. Aang, o último de sua espécie, era o único que poderia pôr fim à guerra, aprendendo a dominar os outros três elementos e ser capaz derrotar o Senhor do Fogo Ozai."
     },
@@ -45,6 +45,6 @@
         "id":8,
         "imagem": "imagens/appa.png",
         "nome": "Appa",
-        "descricao":"Appa é o fiel Bisão Voador pertencente a Aang. Aang e Appa, juntamente com o Momo, tem um forte vínculo familiar entre si já que são os últimos de sua espécie. Ele é mais conhecido por sua habilidade de voar, através de Dobra de Ar, apesar do seu altíssimo peso. Isto faz dele o principal meio de transporte utilizado pela Equipe Avatar. Sendo um bisão do ar, Appa possuía a dobra de ar e aparentemente usava sua cauda. Sendo um bisão do céu, Appa possuía dobra de ar e, aparentemente, usava sua cauda como a principal força motriz por trás de sua dominação,mas ele também havia demonstrado a capacidade de realizá-lo com a boca. Ele usou principalmente sua capacidade de voar em alturas extremas e evitar ataques. "
+        "descricao":"Appa é o fiel Bisão Voador pertencente a Aang. Aang e Appa, juntamente com o Momo, tem um forte vínculo familiar entre si já que são os últimos de sua espécie. Ele é mais conhecido por sua habilidade de voar, através de Dobra de Ar, apesar do seu altíssimo peso. Isto faz dele o principal meio de transporte utilizado pela Equipe Avatar. Sendo um bisão do ar, Appa possuía a dobra de ar e aparentemente usava sua cauda. Sendo um bisão do céu, Appa possuía dobra de ar e, aparentemente, usava sua cauda como a principal força motriz por trás de sua dominação,mas ele também havia demonstrado a capacidade de realizá-lo com a boca. Ele usou principalmente sua capacidade de voar em alturas extremas e evitar ataques."
     }
 ]
