@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Lista from './Lista.js';
+import Lista from './lista/Lista.js';
+import 'bootstrap/dist/css/bootstrap.css';
+import Cartao from './cartao/Cartao';
 
 
 
@@ -27,6 +29,7 @@ function App() {
       axios.post('https://iot.14mob.com/api-fiap/public/index.php/users', parametros).then(response => {
           if(response.status == 201){
               alert('Ebaaaaa deu certo')
+              atualizarLista();
           }else{
               alert('lascou')
           }
@@ -46,6 +49,7 @@ function App() {
       axios.put('https://iot.14mob.com/api-fiap/public/index.php/users/'+ id, parametros).then(response => {
           if(response.status == 200){
               alert('Ebaaaaa deu certo')
+              atualizarLista();
           }else{
               alert('lascou')
           }
@@ -58,43 +62,55 @@ function App() {
       setEmail(usuario.email);
       setSenha(usuario.password);
   }
+
+  function atualizarLista(){
+    axios.get('https://iot.14mob.com/api-fiap/public/index.php/users').then( response => {
+          setUsuarios(response.data.users);
+      })
+  }
+  
   
 useEffect(() => {
-      axios.get('https://iot.14mob.com/api-fiap/public/index.php/users').then( response => {
-          setUsuarios(response.data.users);
-          console.log(response);
-      })
+  atualizarLista();
   },[])
 
 
 return (
-    <div>
-      <form className="formulario" onSubmit={event => {
-          event.preventDefault();
-          if(id != ''){
-              atualizarUsuarioApi()
-          }else{
-              salvarFormulario();
-          }
-          return false;
-      } } > 
-      <label>Nome</label>
-      <input name="name" value={ nome }  onChange={ e => setNome(e.target.value) } />
-      <label>Email</label>
-      <input name="email" value={ email } onChange={ e => setEmail(e.target.value) } />
-      <label>senha</label>
-      <input name="password" value={ senha } onChange={ e => setSenha(e.target.value) } />
+  <div className="container">
+   <Cartao titulo="Cadastro de usuario">
+  <form onSubmit={event => {
+      event.preventDefault();
+      if(id != ''){
+          atualizarUsuarioApi()
+      }else{
+          salvarFormulario();
+      }
       
-      <button type="submit">Enviar</button>
-      </form>
-
-      <p>{ nome }</p>
-      <p>{ email }</p>
-      <p>{ senha }</p>
-      
-      <Lista usuarios={usuarios} onEditar= { usuario => atualizarUsuario(usuario) } ></Lista>
-
+      return false;
+  } } > 
+  <div className="form-group">
+  <label>Nome</label>
+  <input className="form-control" name="name" value={ nome }  onChange={ e => setNome(e.target.value) } />
   </div>
+  <div className="form-group">
+  <label>Email</label>
+  <input className="form-control" name="email" value={ email } onChange={ e => setEmail(e.target.value) } />
+  </div>
+  <div className="form-group">
+  <label>senha</label>
+  <input className="form-control" name="password" value={ senha } onChange={ e => setSenha(e.target.value) } />
+  </div>
+  
+  <button className="btn btn-primary mt-3" type="submit">Enviar</button>
+  </form>
+  </Cartao>
+  <Cartao titulo="Lista de usuarios">
+ <Lista 
+  usuarios={usuarios} 
+  atualizarLista = { e => atualizarLista() } 
+  onEditar= { usuario => atualizarUsuario(usuario) } />
+  </Cartao>
+</div>
     
     
 );
