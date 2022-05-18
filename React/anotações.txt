@@ -1,0 +1,23 @@
+https://gist.github.com/glauciodaniel
+
+boilerplate
+
+next js - possui proprio sistema de rotas, cria a pagina dentro de pages
+
+Todas as rotas do navegador são abraçadas pleo react router dom, ou seja ficam dentro da tag <BrowserRouter>
+
+ <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/register" element={<Register />} />
+    </Routes>
+    </BrowserRouter>
+
+3 erros do javascript
+erro de sintaxe - escreveu algo errado
+erro de referencia - quando chama metodo, funcão ou algum outro referencia que não existe
+
+
+const executa = () => {} arrow function - função de seta... pequenas rotinas, não precisamos do operador 'this'.
+
+Conditional rendering - eu somnte quero que ela apareça quando redenrizar algo
