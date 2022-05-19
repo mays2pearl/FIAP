@@ -15,6 +15,7 @@ html, body{
 
 input[type="text"],
 input[type="tel"],
+input[type="password"],
 input[type="email"]{
     border: none;
     width: 100%;
@@ -28,6 +29,12 @@ input[type="email"]{
         caret-color: green;
         color: green;
     }
+}
+
+form fildset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 `

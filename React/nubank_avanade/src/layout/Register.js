@@ -1,21 +1,16 @@
 
 import { useReducer, useState } from "react";
 import styled from "styled-components";
-import bannerBG from "../assets/images/bannerBG.png";
+import Banner from "../components/Banner";
 
 const Container = styled.div`
   display: flex;
+  flex-direction: column;
+  
   fieldset {
     width: 60%;
+    border: none;
   }
-`;
-
-const Banner = styled.div`
-  width: 50%;
-  height: 100vh;
-  border: solid 1px red;
-  background: url(${(props) => (props.background ? props.background : "")}) 20%
-    90% no-repeat;
 `;
 
 const formReducer = (state, event) => {
@@ -48,10 +43,10 @@ function Register() {
 
   return (
     <Container>
-      <Banner background={bannerBG}></Banner>
+      <Banner background={true}>
+        <h1 className="">Complete os campos ao lado para pedir sua Conta e Cartão de crédito</h1>
+      </Banner>
       <Banner>
-        <h1>Formulário de Cadastro</h1>
-
         {submitting && (
           <div>
             <p>Enviando o formulário...</p>
