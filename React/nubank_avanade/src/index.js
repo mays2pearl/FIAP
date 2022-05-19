@@ -5,6 +5,9 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import App from './layout/App';
 import Register from './layout/Register';
 import Login from './layout/Login';
+import createGlobalStyle from './assets/styles/global';
+
+const GlobalStyle = createGlobalStyle;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +19,7 @@ root.render(
       <Route path="/login" element={<Login />} />
     </Routes>
     </BrowserRouter>
+    <GlobalStyle/>
   </React.StrictMode>
 );
 
