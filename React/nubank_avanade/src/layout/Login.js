@@ -1,6 +1,6 @@
 import { useReducer, useState } from "react";
 import styled from "styled-components";
-import bannerBG from "../assets/images/bannerBG.png";
+import Banner from "../components/Banner";
 
 const Container = styled.div`
   display: flex;
@@ -8,21 +8,6 @@ const Container = styled.div`
     width: 60%;
     border: none;
   }
-`;
-
-const Banner = styled.div`
-  width: 50%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: solid 1px red;
-  background:${(props) => props.background ? "url(" + props.background + ") #e5e5e5" : ""} 20%
-    90% no-repeat;
-    @media (max-width: 1280px) {
-      background-size: 60%;
-    }
 `;
 
 const formReducer = (state, event) => {
@@ -55,11 +40,13 @@ function Login() {
 
   return (
     <Container>
-      <Banner background={bannerBG}></Banner>
+      <Banner background={true}>
+        <h1>Faça seu Login</h1>
+      </Banner>
       <Banner>
         {submitting && (
           <div>
-            <p>Entrando...</p>
+            <p>Enviando o formulário...</p>
             <ul>
               {Object.entries(formData).map(([name, value]) => (
                 <li key={name}>
@@ -88,7 +75,7 @@ function Login() {
 
           <fieldset>
             <label>
-              Digite sua senha:
+              Senha:
               <input
                 type="password"
                 name="senha"
